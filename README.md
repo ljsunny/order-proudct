@@ -48,11 +48,15 @@ OrderApp is a simple command-line application that manages customer information 
 ```bash
 OrderApp/
 │
-├── customer.json     # Stores customer details
-├── pdata.json        # Contains product information
-├── order_app.py      # Main application file
-└── customers/        # Folder for storing customer shopping cart data
-    └── {customerID}/  # Each customer has a directory for their carts
-        ├── cart1.json
-        └── cart2.json
+├── index.py      # Main application file
+└── data/        # Folder for storing customer shopping cart data
+    │
+    ├──  cart/
+       └── {customerID}.json  # Each customer has a directory for their carts
+       └── {customerID}.json
+       └── {customerID}.json
+    ├──  customer.json   # Stores customer details
+    └──  pdata.json        # Contains product information
+
+
 ```
