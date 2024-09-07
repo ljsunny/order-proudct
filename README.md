@@ -16,8 +16,8 @@ OrderApp is a simple command-line application that manages customer information 
 
 3. **Shopping Cart Management**:
    - Customers can add multiple products to a shopping cart.
-   - Shopping carts can be saved in a directory named after the customer ID.
-   - Each cart is saved as a unique JSON file in the customer’s directory.
+   - Shopping carts can be saved in customer ID json file.
+   - Each cart is saved as a unique JSON file in the data’s directory.
 
 4. **View Shopping Carts**:
    - Customers can view their saved shopping carts along with the total price.
@@ -40,7 +40,7 @@ OrderApp is a simple command-line application that manages customer information 
 2. Ensure you have Python installed.
 3. Navigate to the project folder and run the application with:
    ```bash
-   python order_app.py
+   python index.py
    ```
 4. Follow the menu prompts to perform operations.
 
